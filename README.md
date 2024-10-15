@@ -12,8 +12,14 @@
 - [x] Editor config
 - [x] Eslint config
 - [x] Prettier config
-- [ ] Stylelint config
+- [x] Stylelint config
 - [x] .gitignore
+- [x] Postcss config
+- [x] Sass
+- [x] TypeScript config
+- [ ] bem-react/classname
+- [ ] FSD
+- [ ] swiss-knife-scss
 - [ ] CI/CD
 - [ ] Docker file
 - [ ] Readme.md
@@ -21,8 +27,3 @@
 - [ ] Commitlint config
 - [ ] cz-customizable
 - [ ] Lint Staged
-- [ ] Postcss config
-- [ ] Sass
-- [x] TypeScript config
-- [x] Fix проблемы с babel-proposal
-- [x] Fix проблемы с typescript-plugins
