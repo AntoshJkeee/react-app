@@ -3,7 +3,7 @@
 
 // # ------------ LAYER COMPONENTS ------------ # //
 @layer components-features {
-	.features-example {
+	.widgets-example {
 		display: flex;
 
 		align-items: center;
@@ -13,7 +13,7 @@
 		margin-bottom: 20px;
 
 		color: var(--gray0);
-		background: var(--blue700);
+		background: var(--blue500);
 
 		font-size: var(--fs40);
 		font-weight: 800;
