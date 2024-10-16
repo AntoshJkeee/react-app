@@ -1,0 +1,10 @@
+// Можно пользоваться такими классами как col-1, col-1@xs, col-3@md, col-4@lg и тд
+// Можно пользоваться такими классами как offset-1, offset-1@xs, offset-3@md, offset-4@lg и тд
+
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../../styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-shared {
+	@include col;
+}

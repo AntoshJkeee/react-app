@@ -2,6 +2,7 @@
 
 #### `npm start` - running the project locally
 #### `npm run build` - optimized version build
+#### `npm run lint` - lint style and js by all files
 #### `npm install -g serve` - to install global package for serve build
 #### `serve -s build` - to run optimization version build
 
@@ -17,9 +18,12 @@
 - [x] Postcss config
 - [x] Sass
 - [x] TypeScript config
-- [ ] bem-react/classname
+- [x] bem-react/classname
 - [ ] FSD
-- [ ] swiss-knife-scss
+- [ ] React Router Dom
+- [ ] Redux Store
+- [x] swiss-knife-scss
+- [ ] раскидать layers
 - [ ] CI/CD
 - [ ] Docker file
 - [ ] Readme.md

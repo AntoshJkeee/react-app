@@ -1,0 +1,80 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: var(--fw700);
+}
+
+h1,
+.h1 {
+	letter-spacing: -0.05em;
+
+	font-size: var(--fs72);
+	line-height: 1.1;
+
+	@include media(lg) {
+		font-size: var(--fs60);
+		line-height: 1.06;
+	}
+
+	@include media(xs) {
+		font-size: var(--fs48);
+		line-height: 1.08;
+	}
+}
+
+h2,
+.h2 {
+	letter-spacing: -0.04em;
+
+	font-size: var(--fs48);
+	line-height: 1.08;
+
+	@include media(lg) {
+		font-size: var(--fs36);
+		line-height: 1.1;
+	}
+
+	@include media(xs) {
+		font-size: var(--fs28);
+		line-height: 1.14;
+	}
+}
+
+h3,
+.h3 {
+	letter-spacing: -0.02em;
+
+	font-size: var(--fs40);
+	line-height: 1.1;
+
+	@include media(lg) {
+		font-size: var(--fs32);
+		line-height: 1.125;
+	}
+
+	@include media(xs) {
+		font-size: var(--fs28);
+		line-height: 1.14;
+	}
+}
+
+h4,
+.h4 {
+	letter-spacing: -0.01em;
+
+	font-size: var(--fs28);
+	line-height: 1.14;
+
+	@include media(lg) {
+		font-size: var(--fs24);
+		line-height: 1.16;
+	}
+
+	@include media(xs) {
+		font-size: var(--fs20);
+		line-height: 1.2;
+	}
+}

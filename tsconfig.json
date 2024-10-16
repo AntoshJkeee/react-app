@@ -25,15 +25,7 @@
 				"name": "next"
 			}
 		],
-		"baseUrl": ".",
-		"paths": {
-			"@widgets": ["./src/widgets/index.ts"],
-			"@entities": ["./src/entities/index.ts"],
-			"@features": ["./src/features/index.ts"],
-			"@shared/*": ["./src/shared/*"],
-			"@ui": ["./src/shared/ui/index.ts"],
-			"@public/*": ["./public/*"],
-		},
+		"baseUrl": "."
 	},
 	"include": [
 		"**/*.ts",

@@ -1,0 +1,36 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../../styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-shared {
+	.container {
+		width: 100%;
+		max-width: container-width(xl);
+		margin-inline: auto;
+		padding-inline: 20px;
+
+		@include media(xl) {
+			max-width: container-width(xl);
+			padding-inline: 20px;
+		}
+
+		@include media(lg) {
+			max-width: container-width(lg);
+			padding-inline: 24px;
+		}
+
+		@include media(lg) {
+			max-width: container-width(lg);
+			padding-inline: 24px;
+		}
+
+		@include media(md) {
+			max-width: container-width(md);
+			padding-inline: 20px;
+		}
+
+		@include media(xs) {
+			max-width: container-width(xs);
+		}
+	}
+}

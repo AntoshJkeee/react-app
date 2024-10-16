@@ -1,0 +1,147 @@
+// # ПОДКЛЮЧЕНИЕ SCSS ПЕРЕМЕННЫХ ДЛЯ root.scss и default.scss # //
+@import "~swiss-knife-scss/layer-settings/variables";
+
+// # ОБЪЯВЛЕНИЕ CSS ПЕРЕМЕННЫХ ДЛЯ ROOT # //
+$variables-root: variables-root(
+	(
+		"selection-background": var(--blue200),
+		"body-font-family": (
+			"Manrope",
+			sans-serif,
+		),
+		"body-font-size": 1.4rem,
+		"body-font-weight": 500,
+		"body-line-height": 1.4,
+		"body-font-letter-spacing": -0.01em,
+		"link-hover-color": var(--orange500),
+		"link-text-decoration": none,
+		"font-manrope": (
+			"Manrope",
+			sans-serif,
+		),
+		//# ВСЕ COLOR ПРОЕКТА # //
+		"blue100": hsla(218, 82%, 89%, 1),
+		"blue200": hsla(218, 81%, 78%, 1),
+		"blue500": hsla(218, 80%, 45%, 1),
+		"blue700": hsla(218, 81%, 23%, 1),
+		"blue800": hsla(218, 81%, 12%, 1),
+		"blue900": hsla(218, 81%, 6%, 1),
+		"blue950": hsla(217, 87%, 3%, 1),
+		"darker": hsla(218, 89%, 22%, 0.8),
+		"orange100": hsla(19, 91%, 91%, 1),
+		"orange200": hsla(20, 89%, 82%, 1),
+		"orange300": hsla(20, 89%, 72%, 1),
+		"orange500": hsla(20, 89%, 54%, 1),
+		"orange700": hsla(20, 89%, 32%, 1),
+		"gray0": hsla(0, 0%, 100%, 1),
+		"gray20": hsla(240, 7%, 94%, 1),
+		"gray50": hsla(210, 15%, 95%, 1),
+		"gray100": hsla(220, 13%, 91%, 1),
+		"gray150": hsla(217, 93%, 5%, 0.1),
+		"gray200": hsla(216, 15%, 81%, 1),
+		"gray300": hsla(217, 16%, 72%, 1),
+		"gray400": hsla(218, 15%, 62%, 1),
+		"gray500": hsla(218, 16%, 53%, 1),
+		"gray600": hsla(216, 16%, 42%, 1),
+		"gray700": hsla(218, 15%, 32%, 1),
+		"gray900": hsla(214, 12%, 11%, 1),
+		"gray950": hsla(218, 100%, 3%, 1),
+		"red200": hsla(0, 89%, 82%, 1),
+		"red300": hsla(0, 89%, 72%, 1),
+		"red400": hsla(0, 88%, 63%, 1),
+		"red500": hsla(0, 89%, 54%, 1),
+		"red700": hsla(1, 90%, 32%, 1),
+		"black-50": hsla(0, 0%, 0%, 0.5),
+		//# ВСЕ FONT-SIZE ПРОЕКТА # //
+		"fs12": 1.2rem,
+		"fs14": 1.4rem,
+		"fs16": 1.6rem,
+		"fs18": 1.8rem,
+		"fs20": 2rem,
+		"fs24": 2.4rem,
+		"fs28": 2.8rem,
+		"fs32": 3.2rem,
+		"fs36": 3.6rem,
+		"fs40": 4rem,
+		"fs48": 4.8rem,
+		"fs60": 6rem,
+		"fs72": 7.2rem,
+		"fs175": 17.5rem,
+		"fs300": 30rem,
+		//# ВСЕ FONT-WEIGHT ПРОЕКТА # //
+		"fw400": 400,
+		"fw500": 500,
+		"fw600": 600,
+		"fw700": 700,
+		//# ВСЕ BORDER-RADIUS ПРОЕКТА # //
+		"br2": 2px,
+		"br4": 4px,
+		"br8": 8px,
+		"br16": 16px,
+		"br24": 24px,
+		"br36": 36px,
+		"br64": 64px,
+		"br100": 100px,
+		"br-circle": 50%,
+		//# ВСЕ РАЗМЕРЫ УНИКАЛЬНЫХ РЕШЕНИЙ И ДЛЯ JS ПРОЕКТА# //
+		"rounding-effect": "0px",
+		"infinity": calc(infinity),
+		"outside-indentation": "0px",
+		"half-of-header-height": 0,
+	)
+);
+
+// # ПЕРЕОПРЕДЕЛЕНИЕ ПЕРЕМЕННЫХ ДЛЯ МЕДИАЗАПРОСОВ # //
+$media-direction: "max";
+$breakpoints: (
+	xs: 360,
+	md: 768,
+	lg: 992,
+	xl: 1200,
+	xxl: 1440,
+);
+
+$col-media-params: (
+	xs: 4,
+	md: 8,
+	lg: 10,
+	xl: 12,
+	xxl: (
+		12,
+		16,
+	),
+);
+
+// # ПЕРЕМЕННАЯ ДЛЯ ОТСТУПОВ MARGIN, PADDING, GAP # //
+$property-values-spacings: (auto, 0, 2, 4, 8, 12, 14, 16, 20, 24, 28, 32, 40, 60, 76, 80, 96, 120, 100, 136, 200);
+
+// # ПЕРЕМЕННАЯ ДЛЯ ЦВЕТОВ # //
+$variable-colors: (
+	"gray950",
+	"gray900",
+	"gray700",
+	"gray600",
+	"gray400",
+	"gray300",
+	"gray0",
+	"gray20",
+	"gray500",
+	"blue800",
+	"orange500",
+	"red500"
+);
+
+// # ПЕРЕМЕННАЯ ДЛЯ ЦВЕТОВ # //
+$variable-weight: ("fw400", "fw500", "fw600", "fw700");
+
+// # ПЕРЕМЕННАЯ ДЛЯ СЛОЕВ # //
+$layers: (
+	generic,
+	elements,
+	components-shared,
+	components-entities,
+	components-widgets,
+	components-features,
+	pages,
+	utilities
+);

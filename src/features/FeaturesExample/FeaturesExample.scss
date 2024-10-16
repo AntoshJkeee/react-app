@@ -1,0 +1,20 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../shared/styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-features {
+	.features-example {
+		display: flex;
+
+		height: 200px;
+		margin-bottom: 20px;
+
+		text-align: center;
+
+		color: var(--gray0);
+		background: var(--blue700);
+
+		font-size: var(--fs40);
+		font-weight: 800;
+	}
+}

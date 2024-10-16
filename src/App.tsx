@@ -1,5 +1,6 @@
 import About from './components/About/About';
 import MyComponent from './components/MyComponent/MyComponent';
+import SomeComponent from './components/SomeComponent/SomeComponent';
 
 export default function App() {
 	return (
@@ -10,6 +11,7 @@ export default function App() {
 			</main>
 			<About name={'s'} />
 			<MyComponent />
+			<SomeComponent />
 			<footer>some footer</footer>
 		</div>
 	);

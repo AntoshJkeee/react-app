@@ -1,0 +1,14 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-shared {
+	.button {
+		padding: 10px;
+
+		border-radius: var(--br16);
+		background: var(--orange500);
+
+		font-weight: 700;
+	}
+}

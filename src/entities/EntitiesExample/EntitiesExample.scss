@@ -1,0 +1,11 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../shared/styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-entities {
+	.entities-example {
+		background: var(--blue500);
+		height: 200px;
+		margin-bottom: 20px;
+	}
+}

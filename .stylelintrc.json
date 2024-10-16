@@ -3,7 +3,6 @@
 	"plugins": ["stylelint-order", "stylelint-scss", "stylelint-prettier"],
 	"customSyntax": "postcss-scss",
 	"rules": {
-		"prettier/prettier": [true, { "singleQuote": false }],
 		"declaration-empty-line-before": null,
 		"order/order": [
 			"custom-properties",
