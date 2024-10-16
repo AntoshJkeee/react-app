@@ -1,6 +1,6 @@
 import IEntitiesExample from './EntitiesExample.types';
-import classes from './EntitiesExample.cn';
 import './EntitiesExample.scss';
+import classes from './EntitiesExample.cn';
 
 export function EntitiesExample(props: IEntitiesExample) {
 

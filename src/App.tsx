@@ -11,7 +11,7 @@ export default function App() {
 				<Container>
 					<Row>
 						<Col>
-							<EntitiesExample data={{text: 'Entities example'}} />
+							<EntitiesExample data={{ text: 'Entities example' }}/>
 							<FeaturesExample data={{text: 'Feature example'}} />
 							<WidgetsExample data={{ text: 'Widget example' }}/>
 						</Col>
