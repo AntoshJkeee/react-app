@@ -2,18 +2,12 @@
 @import "../../shared/styles/include-settings-styles";
 
 // # ------------ LAYER COMPONENTS ------------ # //
-@layer components-widgets {
-	.widgets-example {
+@layer pages {
+	.some {
 		margin-bottom: 20px;
 
-		font-size: var(--fs40);
-		font-weight: 800;
+		text-align: center;
 
-		&__some-wrapper {
-			padding: 10px;
-
-			color: var(--blue500);
-			border: 5px solid var(--blue500);
-		}
+		color: var(--blue950);
 	}
 }

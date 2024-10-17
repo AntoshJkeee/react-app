@@ -1,35 +1,19 @@
-import { WidgetsExample } from './widgets';
-import { Button, Col, Container, Row } from './shared/ui';
-import { FeaturesExample } from './features';
-import { EntitiesExample } from './entities';
+import Layout from './Layout';
+import { Route, Routes } from 'react-router-dom';
+import { ROUTER_PATHS } from './shared/constants/routes';
+import { AboutPage, BlogPage, HomePage, NotFoundPage } from './pages';
 
 export default function App() {
 	return (
-		<div className="app">
-			<header className="App-header">some header</header>
-			<main>
-				<Container>
-					<Row>
-						<Col>
-							<EntitiesExample data={{ text: 'Entities example' }} />
-							<FeaturesExample data={{ text: 'Feature example' }} />
-							<WidgetsExample data={{ text: 'Widget example' }} />
-						</Col>
-					</Row>
-					<Row>
-						<Col cn={{ cols: 'col-4' }}>
-							<Button data={{ text: 'Кнопка 1' }} />
-						</Col>
-						<Col cn={{ cols: 'col-4' }}>
-							<Button data={{ text: 'Кнопка 2' }} />
-						</Col>
-						<Col cn={{ cols: 'col-4' }}>
-							<Button data={{ text: 'Кнопка 3' }} />
-						</Col>
-					</Row>
-				</Container>
-			</main>
-			<footer>some footer</footer>
-		</div>
+		<>
+			<Routes>
+				<Route path={ROUTER_PATHS.HOME} element={<Layout />}>
+					<Route index element={<HomePage />} />
+					<Route path={ROUTER_PATHS.BLOG} element={<BlogPage />} />
+					<Route path={ROUTER_PATHS.ABOUT} element={<AboutPage />} />
+					<Route path={ROUTER_PATHS.NOT_FOUND} element={<NotFoundPage />} />
+				</Route>
+			</Routes>
+		</>
 	);
 }

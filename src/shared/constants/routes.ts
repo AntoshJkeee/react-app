@@ -1,4 +1,6 @@
 export const ROUTER_PATHS = {
-	ROOT: '/',
-	PROFILE: '/profile',
+	HOME: '/',
+	ABOUT: '/about',
+	BLOG: '/blog',
+	NOT_FOUND: '*',
 };

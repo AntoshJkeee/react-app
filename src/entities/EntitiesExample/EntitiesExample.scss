@@ -4,18 +4,34 @@
 // # ------------ LAYER COMPONENTS ------------ # //
 @layer components-entities {
 	.entities-example {
-		display: flex;
-
-		align-items: center;
-		justify-content: center;
-
-		height: 200px;
 		margin-bottom: 20px;
+		padding: 10px;
 
-		color: var(--gray0);
-		background: var(--blue700);
+		color: var(--blue800);
+		border: 3px solid var(--blue800);
 
-		font-size: var(--fs40);
+		font-size: var(--fs32);
 		font-weight: 800;
+
+		&__shared-wrapper {
+			display: flex;
+			align-items: center;
+
+			padding: 10px;
+
+			border: 3px solid var(--orange500);
+			column-gap: 20px;
+		}
+
+		&__button-wrapper {
+			display: flex;
+			column-gap: 10px;
+		}
+
+		&__text-wrapper {
+			color: var(--orange500);
+
+			font-size: var(--fs24);
+		}
 	}
 }

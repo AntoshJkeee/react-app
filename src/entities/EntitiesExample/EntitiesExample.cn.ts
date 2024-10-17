@@ -6,5 +6,9 @@ export default function classes(cn: IEntitiesExample['cn']) {
 
 	return {
 		block: BLOCK({}, [cn?.padding]),
-	}
+		elementWrapper: BLOCK('wrapper'),
+		elementSharedWrapper: BLOCK('shared-wrapper'),
+		elementButtonWrapper: BLOCK('button-wrapper'),
+		elementTextWrapper: BLOCK('text-wrapper'),
+	};
 }

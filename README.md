@@ -80,10 +80,10 @@ sass-lint работает по схеме
 - [x] swiss-knife-scss
 - [x] раскидать layers
 - [x] Readme.md
-- [ ] Commitizen
-- [ ] Commitlint config
-- [ ] cz-customizable
-- [ ] Lint Staged
+- [x] Commitizen
+- [x] Commitlint config
+- [x] cz-customizable
+- [x] Lint Staged
 - [ ] React Router Dom
 - [ ] Redux Store
 - [ ] CI/CD

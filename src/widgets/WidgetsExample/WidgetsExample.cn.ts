@@ -6,5 +6,7 @@ export default function classes(cn: IWidgetsExample['cn']) {
 
 	return {
 		block: BLOCK({}, [cn?.padding]),
-	}
+		elementWrapper: BLOCK('wrapper'),
+		elementSomeWrapper: BLOCK('some-wrapper'),
+	};
 }
