@@ -1,4 +1,4 @@
-import { Header } from './features';
+import { Footer, Header } from './features';
 import { Outlet } from 'react-router';
 
 export default function Layout() {
@@ -8,7 +8,7 @@ export default function Layout() {
 			<main>
 				<Outlet />
 			</main>
-			<footer>footer</footer>
+			<Footer />
 		</>
 	);
 }

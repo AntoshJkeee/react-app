@@ -84,7 +84,7 @@ sass-lint работает по схеме
 - [x] Commitlint config
 - [x] cz-customizable
 - [x] Lint Staged
-- [ ] React Router Dom
+- [x] React Router Dom
 - [ ] Redux Store
 - [ ] CI/CD
 - [ ] Docker file

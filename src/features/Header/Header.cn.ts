@@ -5,5 +5,6 @@ export default function classes() {
 
 	return {
 		block: BLOCK(),
+		elementLink: BLOCK('link'),
 	};
 }
